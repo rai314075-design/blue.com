@@ -1,0 +1,187 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+    
+    background-image:url(new.avif) ;
+    color: #333;
+    line-height: 1.6;
+    text-transform: capitalize ;
+}
+
+/* ===== MAIN TITLE ===== */
+h1 {
+    text-align: center;
+    padding: 15px;
+    background: #6b9ae6;
+    color: rgb(50, 32, 32);
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+/* ===== HEADER / NAVBAR ===== */
+header {
+    background: rgb(227, 104, 104);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    box-shadow: 0 3px 10px rgba(149, 60, 60, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header img {
+    height: 55px;
+}
+
+/* Nav */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #0d6efd;
+}
+
+/* ===== SECTION ===== */
+section {
+    padding: 50px 10%;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #e0e5ec;
+    background-color: rgb(212, 93, 93);
+     font: 900 20px/1.5 'Arial Black', Arial, sans-serif;
+}
+
+/* ===== MAIN GRID ===== */
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    align-items: center;
+}
+
+/* Cards */
+main > div {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+main > div:hover {
+    transform: translateY(-5px);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 9px 18px;
+    background: #0d6efd;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #084fc7;
+}
+
+/* Images */
+figure img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Lists */
+ul li {
+    margin-bottom: 8px;
+  
+}
+
+/* Contact section */
+section p {
+    text-align: center;
+    margin: 5px 0;
+}
+
+/* Social links */
+section a {
+    color: #0d6efd;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* ===== FOOTER STYLE (optional look) ===== */
+footer {
+    background: #111;
+    color: rgb(187, 14, 14);
+    text-align: center;
+    padding: 15px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+#one{
+    background-color: rgb(176, 101, 188);
+    font: 900 20px/1.5 'Arial Black', Arial, sans-serif;
+}
+#two{
+    background-color: rgb(192, 192, 108);
+    font: 900 20px/1.5 'Arial Black', Arial, sans-serif;
+}
+.blue{
+    color: blue;
+
+}
+
+#y{
+    background-color: rgb(212, 93, 93);
+}
+.z{
+    background-color:  rgb(212, 93, 93);
+}
