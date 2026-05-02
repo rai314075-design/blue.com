@@ -29,6 +29,7 @@ html, body {
     top: 0;
     border-radius: 10px;
     z-index: -1;
+
 }
 
 .glowing::before {
@@ -48,6 +49,7 @@ html, body {
     transition:opacity .3s ease-in-out;
     border-radius: 10px;
     opacity: 1;
+   
 }
 
 @keyframes glowing {
@@ -66,4 +68,12 @@ html, body {
 .glowing:active {
     color: #000;
     font-weight: bold;
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    .glowing {
+        padding: 10px 6vw;
+        font-size: 14px;
+    }
 }
